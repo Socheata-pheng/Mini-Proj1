@@ -12,7 +12,7 @@ app.post('/login', (req, res) => {
 
 //SEARCH API
 app.get('/search', (req, res) => {
-    res.send('<html><body>INSIDE SEARCH API..</body></html>');
+    res.send('<html><body>INSIDE SEARCH SERVICE API..</body></html>');
 });
 
 //UPDATE API
